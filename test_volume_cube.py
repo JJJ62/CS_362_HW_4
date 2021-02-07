@@ -2,7 +2,7 @@ import unittest
 import volume_cube
 
 
-class TestCalc(unittest.TestCase):
+class TestVol(unittest.TestCase):
     def test_negative(self):
         result = volume_cube.get_volume(-3)
         self.assertEqual(result, -27)
